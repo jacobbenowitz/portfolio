@@ -46,6 +46,22 @@ Description: Portfolio/CV/Resume HTML Template
   margin-left: 0;
 }
 
+.img-2-logos-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-2-logos-row img {
+  max-width: 50%;
+}
+
+.css-logo {
+  padding: 0.7rem;
+}
+
+.rails-logo {
+  padding-bottom: 1rem;
+}
 
 /*=================================================================*/
 /*                      BASE                              
@@ -1805,7 +1821,7 @@ body.dark footer.footer {
 }
 
 .timeline.edu .timeline-container::after {
-  content: "";
+  content: "\e04b";
   background: #FFF;
   font-family: "simple-line-icons";
   font-size: 24px;
@@ -1817,7 +1833,7 @@ body.dark footer.footer {
 }
 
 .timeline.exp .timeline-container::after {
-  content: "";
+  content: "\e05c";
   background: #FFF;
   font-family: "simple-line-icons";
   font-size: 24px;
