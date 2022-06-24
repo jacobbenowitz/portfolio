@@ -68,7 +68,7 @@ Description: Portfolio/CV/Resume HTML Template
   margin-left: 20px;
   height: 350px;
   box-sizing: content-box;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .project-bullets {
@@ -475,6 +475,7 @@ header.desktop-header-1 .vertical-menu li .switch {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 header.desktop-header-1 .vertical-menu li a {
   color: #FFF;
@@ -1615,7 +1616,7 @@ body.dark footer.footer {
   outline: 0;
 }
 
-@-webkit-keyframes button-push {
+@keyframes button-push {
   50% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
@@ -2062,11 +2063,11 @@ body.dark footer.footer {
   height: 100%;
 }
 
-.mfp-zoom-in {
+/* .mfp-zoom-in { */
   /* start state */
   /* animate in */
   /* animate out */
-}
+/* } */
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   transition: all 0.2s ease-in-out;
