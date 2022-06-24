@@ -63,6 +63,14 @@ Description: Portfolio/CV/Resume HTML Template
   padding-bottom: 1rem;
 }
 
+.inline-mockup-img {
+  float: right;
+  margin-left: 20px;
+  height: 350px;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
 /*=================================================================*/
 /*                      BASE                              
 /*=================================================================*/
@@ -1310,7 +1318,7 @@ select.portfolio-filter-mobile {
 /*                      CLIENTS                              
 /*=================================================================*/
 .client-item {
-  min-height: 50px;
+  height: 130px;
   position: relative;
   text-align: center;
   margin-top: 60px;
@@ -1327,6 +1335,17 @@ select.portfolio-filter-mobile {
 }
 .client-item img {
   display: inline-block;
+}
+.logo-subtitle {
+  position: absolute;
+  padding-top: 10px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /*=================================================================*/
