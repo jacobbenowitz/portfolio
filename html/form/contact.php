@@ -1,7 +1,7 @@
 <?php
 
 // an email address that will be in the From field of the email.
-$from = "Jacob's Portfolio Site<contact@jacobbenowitz.com>";
+$from = "Jacob's Portfolio Site<jacob@jacobbenowitz.com>";
 
 // an email address that will receive the email with the output of the form
 $sendTo = 'Jacob Benowitz <jacob@jacobbenowitz.com>';
