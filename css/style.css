@@ -75,6 +75,19 @@ Description: Portfolio/CV/Resume HTML Template
   margin-left: 1rem;
 }
 
+.contact-info-bold {
+  font-weight: 700;
+}
+
+.cv-exp {
+  margin-left: 14px;
+}
+
+.stats {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
 /*=================================================================*/
 /*                      BASE                              
 /*=================================================================*/
@@ -877,7 +890,8 @@ section.home .intro span {
   color: #FFF;
   font-size: 16px;
 }
-section.home .social-icons li a {
+section.home .social-icons li a,
+header.desktop-header-1 .social-icons li a {
   color: #FFF;
 }
 section.home.light {
