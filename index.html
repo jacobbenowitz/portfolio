@@ -870,11 +870,20 @@
 					</div>
 				</div>
 
+				<script>
+					const handleSubmit = (e) => {
+						e.preventDefault()
+						debugger
+						let contactForm = document.getElementById("contact-form");
+						contactForm.validator();
+						contactForm.reset();
+					};
+				</script>
+
 				<div class="col-md-8">
 					<!-- Contact Form -->
 					<form id="contact-form" class="contact-form mt-6" 
-						method="post" data-netlify="true" onsubmit={contact.js}>
-						<input type="hidden" name="contact-form" value="newContact" />
+						method="post" data-netlify="true" onsubmit={handleSubmit}>
 						<div class="messages"></div>
 						
 						<div class="row">
@@ -942,7 +951,7 @@
 <script src="js/infinite-scroll.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/slick.min.js"></script>
-<script src="js/contact.js"></script>
+// <script src="js/contact.js"></script>
 <script src="js/validator.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/morphext.min.js"></script>
