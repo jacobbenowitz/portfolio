@@ -103,6 +103,14 @@ Description: Portfolio/CV/Resume HTML Template
 .t-85 {
   opacity: 85%;
 }
+
+.contact-info .social-icons i {
+  color:#5E5C7F;
+}
+.contact-info .social-icons i:hover {
+  color:#FF4C60;
+}
+
 /* .video-player {
   border-radius: 14px;
   box-sizing: border-box;
@@ -1110,6 +1118,25 @@ section.home.light .social-icons li a:hover {
   bottom: 20px;
   left: 20px;
   width: 40px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-item .details .view-details-button {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 700;
+  display: block;
+  background: #FF4C60;
+  border-radius: 12px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  position: absolute;
+  padding: 0 6px;
+  bottom: 20px;
+  left: 20px;
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
