@@ -940,16 +940,20 @@
 
 				<script>
 					const handleSubmit = (e) => {
-						let contactForm = document.getElementById("contact-form");
+						e.preventDefault()
+						e.stopPropagation()
+						// let contactForm = document.getElementById("contact-form");
 						// contactForm.validator();
-						contactForm.reset();
+						// contactForm.reset();
 					};
 				</script>
 
 				<div class="col-md-8">
 					<!-- Contact Form -->
+					<!-- <form id="contact-form" class="contact-form mt-6" 
+						method="post" data-netlify="true" onsubmit={handleSubmit}> -->
 					<form id="contact-form" class="contact-form mt-6" 
-						method="post" data-netlify="true" onsubmit={handleSubmit}>
+						method="post" data-netlify="true">
 						<div class="messages"></div>
 						
 						<div class="row">
