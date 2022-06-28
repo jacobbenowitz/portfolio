@@ -71,6 +71,13 @@ Description: Portfolio/CV/Resume HTML Template
   /* display: inline-block; */
 }
 
+.proj-img {
+  width: 95%;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 0 0 14px rgb(18 18 18 / 35%);
+}
+
 .project-bullets {
   margin-left: 1rem;
 }
@@ -190,6 +197,10 @@ blockquote {
 
 blockquote p {
   line-height: 1.6;
+}
+
+code {
+  color:#6C6CE5;
 }
 
 /* === Pre === */

@@ -684,6 +684,8 @@
 				<li class="list-inline-item" data-filter=".full-stack">Full-Stack</li>
 				<li class="list-inline-item" data-filter=".ruby-on-rails">Ruby on Rails</li>
 				<li class="list-inline-item" data-filter=".vanilla-js">Vanilla JavaScript</li>
+				<li class="list-inline-item" data-filter=".react-js">React.js</li>
+				<li class="list-inline-item" data-filter=".widgets">Widgets</li>
 			</ul>
 			
 			<!-- portfolio filter (mobile) -->
@@ -694,6 +696,8 @@
 					<option value=".full-stack">Full-Stack</option>
 					<option value=".ruby-on-rails">Ruby on Rails</option>
 					<option value=".vanilla-js">Vanilla JavaScript</option>
+					<option value=".react-js">React.js</option>
+					<option value=".widgets">Widgets</option>
 				</select>
 			</div>
 			
@@ -701,7 +705,7 @@
 			<div class="row portfolio-wrapper">
 
 				<!-- CodeMark -->
-				<div class="col-md-4 col-sm-6 grid-item mern full-stack design">
+				<div class="col-md-4 col-sm-6 grid-item mern full-stack react-js design">
 					<a href="#codemark-dialog" class="work-content">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -724,6 +728,7 @@
 						<script src="https://player.vimeo.com/api/player.js"></script>
 						<h3>Smart notes for code</h3>
 						<p>CodeMark is a tool built for developers that allows you to save, view, and discover code snippets. Based on the code provided, CodeMark will extract the keywords and provide you a list of options to receive resources for. These resources are saved with your note and can be referenced anytime, or edited along with the note in the future. Feeling lonely? Gain insights from other users in the discover section, where you can view, like, and comment on other user’s public notes.</p>
+						<a href="https://code-mark.herokuapp.com/" class="btn btn-default" target="_blank">View live site</a>
 						<img src="images/projects/CodeMark_Home_Desktop.png" alt="CodeMark Desktop Mockup" />
 						<div class="spacer" data-height="64"></div>
 						<a href="https://code-mark.herokuapp.com/" target="_blank">
@@ -750,7 +755,7 @@
 				</div>
 
 				<!-- 5000px -->
-				<div class="col-md-4 col-sm-6 grid-item ruby-on-rails full-stack design">
+				<div class="col-md-4 col-sm-6 grid-item ruby-on-rails react-js full-stack design">
 					<a href="#fsp-5000px-dialog" class="work-content">
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
@@ -772,6 +777,7 @@
 						<div style="padding:75% 0 0 0;position:relative;"><iframe class="video-player" src="https://player.vimeo.com/video/723792131?h=8b184e5af4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="5000px_drag-n-drop.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 						<h2>A Full-Stack Clone of 500px</h2>
 						<p>Users can upload photos, like and comment on photos, and follow their favorite photographers. User's can build their profile with a cover photo, avatar image, and profile details. Each photo can be added to a category, and each category has their own collection gallery page. </p>
+						<a href="https://my5000px.herokuapp.com/" class="btn btn-default" target="_blank">View live site</a>
 						<img src="images/projects/5000px_ProfilePage.png" alt="5000px Desktop Mockup" />
 						<div class="spacer" data-height="32"></div>
 						<ul class="project-bullets">
@@ -840,6 +846,67 @@
 						<a href="https://github.com/jacobbenowitz/animation_academy" class="btn btn-default" target="_blank">GitHub Repo</a>
 					</div>
 				</div>
+				<!-- React Widgets -->
+				<div class="col-md-4 col-sm-6 grid-item widgets react.js design">
+					<a href="#react-widgets-dialog" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">React.js</span>
+								<h4 class="title">React Widgets</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/projects/react-widgets.png" alt="Full-Stack 5000px Project" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="react-widgets-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+						<h1>React Widgets</h1>
+						<h5>React.js, CSS3, Webpack, Node,js</h5>
+						<a href="https://jacobbenowitz.github.io/react-widgets" target="_blank">
+							<img src="images/projects/autocompelete_widget.gif" alt="React Widgets Landing Page" />
+						</a>
+						<h2>Clock, Weather, Autocomplete & Tabs</h2>
+						<p>Simple, dynamic widgets built with React.js and utilizing the Geolocation API and Open Weather API</p>
+						<a href="https://jacobbenowitz.github.io/react-widgets/" class="btn btn-default" target="_blank">View live site</a>
+						<div class="spacer" data-height="20"></div>
+						<ul class="project-bullets">
+							<h6 id="technologies-used">Technologies Used</h6>
+							<ul>
+								<li><code>React.js</code> - Frontend JavaScript library</li>
+								<li><code>Webpack</code> - Module bundler</li>
+								<li><code>@babel/core</code> - JavaScript coverter for backwards compatibility</li>
+								<li><code>Geolocation API</code> - Request user&#39;s current location and </li>
+								<li><code>Open Weather API</code> - Fetch free weather data for the user&#39;s location</li>
+							</ul>
+							<h6 id="widgets-title">Widgets</h6>
+							<h6 id="-clock-"><strong><code>Clock</code></strong></h6>
+							<p>The <code>Clock</code> component displays the current date and time, updating every second.</p>
+							<a href="https://jacobbenowitz.github.io/react-widgets#widget-clock" target="_blank">
+								<img src="images/projects/clock_widget-2.png" alt="React Widgets - Clock" class="proj-img" />
+							</a>
+							<h6 id="-weather-"><strong><code>Weather</code></strong></h6>
+							<p>The <code>Weather</code> component provides local weather data in an organized and digestible fashion. Weather data includes:</p>
+							<a href="https://jacobbenowitz.github.io/react-widgets#widget-weather" target="_blank">
+								<img src="images/projects/weather_widget-2.png" alt="React Widgets - Weather" class="proj-img" />
+							</a>
+							<h6 id="-autocomplete-"><strong><code>AutoComplete</code></strong></h6>
+							<p>The <code>AutoComplete</code> component filters a list of names based on the user&#39;s input. Matches are detected by comparing the user&#39;s input to the list of names, each sliced to the length of input and checked for equality. When a user clicks on the recommended name, the field autocompletes the name and displays the company&#39;s data below the search bar.</p>
+							<a href="https://jacobbenowitz.github.io/react-widgets#widget-auto" target="_blank">
+								<img src="images/projects/autocomplete_widget.png" alt="React Widgets - Autocomplete" class="proj-img" />
+							</a>
+							<h6 id="-tabs-"><strong><code>Tabs</code></strong></h6>
+							<p>The <code>Tabs</code> widget is an interactive container that dynamically displays content based on the label selected by the user.</p>
+							<a href="https://jacobbenowitz.github.io/react-widgets#widget-tabs" target="_blank">
+								<img src="images/projects/tabs_widget-2.png" alt="React Widgets - Tabs" class="proj-img" />
+							</a>
+						</ul>
+						<a href="https://jacobbenowitz.github.io/react-widgets/" class="btn btn-default" target="_blank">View live site</a>
+						<a href="https://github.com/jacobbenowitz/react-widgets" class="btn btn-default" target="_blank">GitHub Repo</a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
