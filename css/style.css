@@ -94,7 +94,15 @@ Description: Portfolio/CV/Resume HTML Template
   margin-left: 14px;
   margin-right: 14px;
 }
+.row-counts {
+  display: flex;
+  flex-flow: row nowrap;
+  max-height: 36px;
+}
 
+.t-85 {
+  opacity: 85%;
+}
 /* .video-player {
   border-radius: 14px;
   box-sizing: border-box;
