@@ -29,11 +29,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-		<script>
-			async function getContributions(token, username) {
-			const headers = {
-					'Authorization': `bearer ${token}`,
-			}
+		<!-- <script>
+			async function getContributions(username) {
+			// const headers = {
+			// 		'Authorization': `bearer ${token}`,
+			// }
 			const body = {
 					"query": `query {
 							user(login: "${username}") {
@@ -57,22 +57,21 @@
 						}`
 			}
 			const response = await fetch('https://api.github.com/graphql', {
-				method: 'POST', body: JSON.stringify(body), headers: headers 
+				method: 'POST', body: JSON.stringify(body)
 			})
 			const data = await response.json()
 			return data
 		}
-		let totalContributions
+		let totalContributions -->
 
-		const contributions = getContributions('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', 'jacobbenowitz')
-		.then(data => {
+		<!-- const contributions = getContributions('jacobbenowitz')
 			totalContributions = data.data.user.contributionsCollection.contributionCalendar.totalContributions})
 		.then(() => {
 			const ele = document.getElementById('contributions')
 			ele.textContent = totalContributions
 		})
 
-		</script>
+		</script> -->
 
 </head>
 
@@ -344,7 +343,7 @@
 						<div class="fact-item">
 							<span class="icon icon-social-github"></span>
 							<div class="details">
-								<h3 class="mb-0 mt-0 number"><em class="count" id="contributions"></em></h3>
+								<h3 class="mb-0 mt-0 number"><em class="count" id="contributions">932</em></h3>
 								<p class="mb-0">GitHub Contributions</p>
 							</div>
 						</div>
