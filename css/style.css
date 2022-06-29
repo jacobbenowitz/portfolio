@@ -111,6 +111,14 @@ Description: Portfolio/CV/Resume HTML Template
   color:#FF4C60;
 }
 
+#tech-mking {
+  white-space: nowrap;
+}
+
+.row.stats.stats-main {
+  justify-content: space-around;
+}
+
 /* .video-player {
   border-radius: 14px;
   box-sizing: border-box;
