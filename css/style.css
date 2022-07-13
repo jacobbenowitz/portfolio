@@ -125,6 +125,15 @@ Description: Portfolio/CV/Resume HTML Template
   overflow: hidden;
 } */
 
+.w-80 {
+  width: 80px;
+  display: block;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 /*=================================================================*/
 /*                      BASE                              
 /*=================================================================*/
