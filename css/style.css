@@ -134,6 +134,16 @@ Description: Portfolio/CV/Resume HTML Template
   visibility: hidden;
 }
 
+.yellow-link {
+  color: #FFF;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.yellow-link:hover {
+  color: #FFD15C;
+}
+
 /*=================================================================*/
 /*                      BASE                              
 /*=================================================================*/
