@@ -1073,6 +1073,8 @@ section.home.light .social-icons li a:hover {
 }
 .service-box img {
   margin-bottom: 22px;
+  max-height: 80px;
+  width: auto;
 }
 .service-box:hover {
   -webkit-transform: translateY(-10px);
@@ -1640,6 +1642,10 @@ body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark 
 body.dark .triangle-top:before {
   border-bottom-color: #302f4e;
 }
+body.dark .timeline .content .role-focus {
+  color: #FFD15C;
+}
+
 body.dark .timeline.exp .timeline-container::after, body.dark .timeline.edu .timeline-container::after {
   background: #302f4e;
 }
@@ -1982,6 +1988,19 @@ body.dark footer.footer {
 
 .timeline .content p {
   margin: 0;
+}
+
+.timeline .content .role-focus {
+  margin: 0 0 8px;
+  font-weight: 500;
+  color: #454360;
+}
+
+.timeline .content .role-skills {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #8B88B1;
 }
 
 .timeline span.line {
